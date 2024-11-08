@@ -76,8 +76,8 @@ public class Main {
         }
 
         System.out.println("\nEstatísticas de Distribuição:");
-        System.out.println("Posições ocupadas: " + occupied);
-        System.out.println("Posições vazias: " + empty);
+        System.out.println("Posições ocupadas: " + occupied + " de " + distribution.length);
+        System.out.println("Posições vazias: " + empty + " de " + distribution.length);
     }
 
     // lê os nomes de um arquivo e os armazena em uma lista
